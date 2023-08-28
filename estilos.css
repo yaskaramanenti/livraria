@@ -17,7 +17,11 @@ header {
     background-color: #7ba6e6;
     color: #fff; 
     text-align: center; 
-    padding: 1rem; 
+    padding: 2rem; ;
+}
+
+header h1 {
+    margin-bottom: 30px;
 }
 
 nav ul {
@@ -26,7 +30,8 @@ nav ul {
 
 nav li {
     display: inline; 
-    margin-right: 20px; 
+    margin-right: 35px;
+
 }
 
 nav a {
@@ -36,13 +41,13 @@ nav a {
     }
 
 main {
-    padding: 20px; 
+    padding: 50px; 
     overflow: hidden; 
 }
 
 .card {
-    width: calc(33.33% - 20px); 
-    margin: 10px;
+    width: calc(33.33% - 70px); 
+    margin: 35px;
     padding: 20px;
     background-color: #fff; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
@@ -64,15 +69,30 @@ main {
     margin-top: 25px;
     cursor: pointer; 
     transition: background-color 0.3s ease; 
+    border-radius: 20px;
 }
 
 .card button:hover {
-    background-color: #5b74b9; 
+    background-color: #51659c; 
 }
 
 footer {
-    background-color: #7ba6e6;
+    background-color: #668cc5;
     color: #fff;
     text-align: center;
     padding: 1rem;
 }
+
+nav li {
+    transition: all 0.3s ease; 
+}
+
+nav li:hover {
+    background-color: #51659c;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
